@@ -1,0 +1,18 @@
+{
+  "name": "salesforceauto",
+  "version": "1.0.0",
+  "description": "This is an test about salesforce automatized, the greates plataform of sales in the world, a great platform that allows multiple customization as you like. This git contain cypress with cocumber framework, a powerful test automation tool. That is it",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Mikayo Braganca da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "cypress-wait-until": "^3.0.2"
+  },
+  "keywords": []
+}
