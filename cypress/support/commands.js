@@ -36,19 +36,18 @@ Cypress.Commands.add('loginSalesmanNewSale', () => {
     cy.get('#password').type(password);
     cy.wait(1000);
     cy.get('#Login').click();
-    
+
     cy.wait(10000)
 
     cy.url().should('include', '/corretoras/s/');
 
     cy.contains('Criar Proposta', { timeout: 10000 })
-            .scrollIntoView()
-            .should('be.visible')
-            .click();
+        .scrollIntoView()
+        .should('be.visible')
+        .click();
+});
+
+Cypress.Commands.add('dadosPropostaPFSamp', () => {
 
     
-
-      
-
-
-  });
+});
